@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib60/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python Virtualenv
+venv/
+ENV/ # Another common name for venv
+env/ # And another
+# If you use other venv managers, add their patterns too
+
+# Environment variables
+.env
+.venv # Some tools create .venv instead of venv/
+
+# IDE / Editor specific
+.idea/ # JetBrains
+.vscode/ # VS Code (can be selective, but often the whole thing is ignored)
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+
+# Application-specific temporary files
+saved_canvas.jpg
